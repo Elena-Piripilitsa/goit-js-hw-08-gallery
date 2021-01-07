@@ -38,6 +38,7 @@ function onOpenModal() {
 
 function onCloseModal() {
   modalRef.classList.remove("is-open");
+  imageModalRef.src = "";
 }
 function onEscClose() {
   if (event.code === "Escape") {
